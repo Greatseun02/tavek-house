@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    color: #141414;
+    font-family: "Poppins", Arial, sans-serif;
+    font-style: normal;
+}
+
+.opensans{
+    font-family: "Open Sans", sans-serif;
+}
+
+.opensans-italic{
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+
+
+.syne{
+    font-family: "Syne", sans-serif;
+    font-style: normal;
+}
