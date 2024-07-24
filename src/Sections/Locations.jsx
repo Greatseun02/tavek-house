@@ -45,7 +45,7 @@ export default function Locations() {
                     lists.map(
                         list => 
                         <div className='grid'>
-                            <img className='object-cover w-full h-[600px]  rounded-xl ' src={list.img}></img>
+                            <img className='object-cover w-full h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px]  rounded-xl ' src={list.img}></img>
                             <p className='syne font-semibold text-[24px] mt-3 '>{list.title}</p>
                         </div>
                     )

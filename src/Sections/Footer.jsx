@@ -9,7 +9,7 @@ export default function Footer() {
     }
 
   return (
-    <section id='contact' className='py-16 mx-auto container px-sm xl:px-xl flex flex-col xl:flex-row-reverse justify-between xl:pb-0'>
+    <section id='contact' className='pt-16 pb-7 mx-auto container px-sm xl:px-xl flex flex-col xl:flex-row-reverse justify-between xl:pb-0'>
         <div className='mb-16'>
             <p className='text-[28px] font-medium leading-[34px] syne '>Contact us</p>
             <div className='grid gap-3 mt-5'>
