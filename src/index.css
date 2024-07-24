@@ -31,3 +31,9 @@ body{
     background-size: contain;
 }
 
+.tour-image{
+    background-image: url("./assets/tourbg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
