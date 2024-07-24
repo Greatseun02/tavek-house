@@ -36,8 +36,8 @@ export default function Locations() {
 
     ]
   return (
-    <section className='bg-primaryWhite' id='locations'>
-        <div className='container px-sm mx-auto py-16'>
+    <section className='bg-primaryWhite' id='location'>
+        <div className='container px-sm mx-auto py-16 xl:px-xl'>
             <p className=' mb-3 flex items-center syne font-medium leading-[28px] text-[22px] text-primaryBlue '>Locations <HorizontalLine/> </p>
             <p className='text-[40px] syne font-medium leading-[42px]'>We have workspaces in these different cities</p>
             <div className='grid xl:grid-cols-2 gap-16 mt-16'>

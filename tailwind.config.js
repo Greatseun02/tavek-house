@@ -14,6 +14,7 @@ export default {
       },
       padding:{
         sm:"15px",
+        xl:"60px"
       }
     },
   },

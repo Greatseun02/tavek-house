@@ -6,9 +6,9 @@ import { CheckBox } from '../Icon'
 export default function About() {
   return (
     <section id='about' className='bg-white pt-10 pb-10'>
-        <div className='px-sm container mx-auto'>
+        <div className='px-sm container mx-auto xl:px-xl about'>
             <p className='text-[22px] text-primaryBlue font-medium syne flex items-center gap-1'>About Us <HorizontalLine/> </p>
-            <h2 className='text-[40px] leading-[42px] font-medium syne'>
+            <h2 className='text-[40px] leading-[42px] font-medium syne xl:text-[48px]'>
                 Workspace & private offices for collaborative thinkers
             </h2>
             <div className='grid gap-10 mt-10'>

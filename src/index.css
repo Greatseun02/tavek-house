@@ -26,7 +26,7 @@ body{
 
 .herosection{
     background-image: url("./assets/herobg.png");
-    background-position: 0px ;
+    background-position: top ;
     background-repeat: repeat;
     background-size: contain;
 }
@@ -36,4 +36,13 @@ body{
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
+}
+
+
+.tochange{
+    font-weight: 700 !important;
+}
+
+.about p, .about h2 {
+    width: 85%;
 }

@@ -39,9 +39,9 @@ export default function OffersSection() {
     ]
   return (
     <section id='features' className='bg-primaryBlack '>
-        <div className='px-sm py-20 text-center container mx-auto text-white'>
+        <div className='px-sm py-20 text-center container mx-auto text-white px:px-xl'>
         <p className='syne text-[40px] leading-[42px] font-medium'>Our Features</p>
-            <div className='grid mt-10 gap-10 pl-[12%] pr-20'>
+            <div className='grid mt-10 gap-10 pl-[12%] pr-20 xl:grid-cols-4 '>
                 {
                     offers.map(
                         offer=>
