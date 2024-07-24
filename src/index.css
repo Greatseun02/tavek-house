@@ -46,3 +46,7 @@ body{
 .about p, .about h2 {
     width: 85%;
 }
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.7);
+}

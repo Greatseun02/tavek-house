@@ -2,8 +2,13 @@ import React from 'react'
 import Button from '../components/button'
 import { HorizontalLine } from '../Icon'
 import { CheckBox } from '../Icon'
+import GetStarted from '../components/GetStarted'
 
 export default function About() {
+    const [showModal, setShowModal] = React.useState(false)
+  function handleClick(){
+    setShowModal(true)
+  }
   return (
     <section id='about' className='bg-white pt-10 pb-10'>
         <div className='px-sm container mx-auto xl:px-xl about'>
@@ -33,10 +38,10 @@ export default function About() {
                         <p className='text-[18px] leading-[26px] poppins'>We provide a professional work environment so you won't have to work from home keeping your work life different from home.</p>
                     </div>
                 </div>
-                <Button text={"Get Started"} style={"bg-primaryBlack font-bold py-4 px-8 rounded-[40px]"}/>
+                <Button onClick={handleClick} text={"Get Started"} style={"bg-primaryBlack font-bold py-4 px-8 rounded-[40px]"}/>
             </div>
         </div>
-
+        <GetStarted showModal={showModal} setShowModal={setShowModal}/>
     </section>
   )
 }
