@@ -5,7 +5,7 @@
 
 body{
     color: #141414;
-    font-family: "Poppins", Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
 }
 
@@ -23,3 +23,11 @@ body{
     font-family: "Syne", sans-serif;
     font-style: normal;
 }
+
+.herosection{
+    background-image: url("./assets/herobg.png");
+    background-position: 0px ;
+    background-repeat: repeat;
+    background-size: contain;
+}
+

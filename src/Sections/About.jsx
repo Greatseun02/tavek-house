@@ -1,25 +1,39 @@
 import React from 'react'
+import Button from '../components/button'
+import { HorizontalLine } from '../Icon'
+import { CheckBox } from '../Icon'
 
 export default function About() {
   return (
-    <section id='about' className='bg-primaryWhite'>
-        <div className='h-10 px-sm container mx-auto'>
-            <p className='text-[22px] text-primaryBlue font-medium syne'>About Us </p>
+    <section id='about' className='bg-white pt-10 pb-10'>
+        <div className='px-sm container mx-auto'>
+            <p className='text-[22px] text-primaryBlue font-medium syne flex items-center gap-1'>About Us <HorizontalLine/> </p>
             <h2 className='text-[40px] leading-[42px] font-medium syne'>
                 Workspace & private offices for collaborative thinkers
             </h2>
-            <div>
-                <div>
-                    <img></img>
-                    <div>
-                        <p className='text-[26px] leading-[39px] font-medium syne'>Work-life balance</p>
-                        <p className='text-[18px] leading-[26px] poppins'>Applications a emphasis that in uniforms, this because country, to ticking.</p>
-                    </div>
-                    <div>
-                        <p className='text-[26px] leading-[39px] font-medium syne'>Work-life balance</p>
-                        <p className='text-[18px] leading-[26px] poppins'>Applications a emphasis that in uniforms, this because country, to ticking.</p>
+            <div className='grid gap-10 mt-10'>
+                <div className='flex gap-4'>
+                    <div className='w-[10%] text-[36px] text-primaryBlue pt-1'><CheckBox/></div>
+                    <div className='w-[90%]' >
+                        <p className='text-[26px] leading-[39px] font-medium syne'>Cost effective</p>
+                        <p className='text-[18px] leading-[26px] poppins'>Our payment plans are affordable and suitable for your pockets</p>
                     </div>
                 </div>
+                <div className='flex gap-4'>
+                <div className='w-[10%] text-[36px] text-primaryBlue pt-1'><CheckBox/></div>
+                    <div className='w-[90%]' >
+                        <p className='text-[26px] leading-[39px] font-medium syne'>Flexible</p>
+                        <p className='text-[18px] leading-[26px] poppins'>We provide flexible time hours and payment schedules for your benefit.</p>
+                    </div>
+                </div>
+                <div className='flex gap-4'>
+                <div className='w-[10%] text-[36px] text-primaryBlue pt-1'><CheckBox/></div>
+                    <div className='w-[90%]' >
+                        <p className='text-[26px] leading-[39px] font-medium syne'>Work-life balance</p>
+                        <p className='text-[18px] leading-[26px] poppins'>We provide a professional work environment so you won't have to work from home keeping your work life different from home.</p>
+                    </div>
+                </div>
+                <Button text={"Get Started"} style={"bg-primaryBlack font-bold py-4 px-8 rounded-[40px]"}/>
             </div>
         </div>
 
