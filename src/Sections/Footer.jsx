@@ -14,7 +14,7 @@ export default function Footer() {
             <p className='text-[28px] font-medium leading-[34px] syne '>Contact us</p>
             <div className='grid gap-3 mt-5'>
                 <ContactList icon={<PiPhoneBold/>}>+2347016265809</ContactList>
-                <ContactList icon={<CgMail/>}>tavekhouse@gmail.com</ContactList>
+                <ContactList icon={<CgMail/>}>bunmi.arije@tavekhouse.com</ContactList>
             </div>
         </div>
          
